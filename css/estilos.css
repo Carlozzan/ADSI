@@ -1,0 +1,335 @@
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+.navegacion a {
+    color: #131212;
+    text-decoration-color: peru ;
+    margin-right: 6rem;
+    font-size: 3rem;
+}
+
+/* pseudoselector */
+.navegacion a:last-of-type{
+    margin-right: 3rem;
+}
+
+.navegacion a:hover{
+    color: peru;
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+}
+
+.site-header.inicio {
+    background: url(../img/portada1.jpg);
+    height: 42rem; /* viewport height */
+    background-position: left;
+    background-size: cover;
+    max-width: auto;
+    display: flex;
+    align-items: center ;
+    padding: 3rem;
+}
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 38.8rem;
+    align-items: center;
+}
+
+.contenido-header{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+.contenido-header h1 {
+    
+    font-size: 2.6rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(8, 63, 3, 0.822);
+    text-decoration: none;
+    
+}
+
+/* utilidades */
+.seccion{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.seccion h1{
+    margin-top: 3.6rem;
+    margin-bottom: 1rem;
+}
+
+.centrar-texto{
+    text-align: center;
+}
+
+.fw-300{
+    font-weight: 300;
+    color: rgba(8, 63, 3, 0.822);
+}
+
+.contenedor-anuncios{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+    
+}
+
+
+.anuncio{
+    /* grown-shrink-basis */
+    flex: 0 0 calc(33.3% - 1rem);
+    border-style: solid;
+    border-color: #71b100;
+    border-width: .1rem;
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+}
+
+
+.contenido-anuncio{
+    padding: 2rem;
+}
+.contenido-anuncio h3, .contenido-anuncio p{
+    margin: 0;
+}
+
+.precio{
+    color: #71b100;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.caracteristicas{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.caracteristicas p{
+    display: flex;
+    background-color: yellow;
+    font-size: 2rem;
+}
+
+.caracteristicasp{
+    font-size: 1.4rem;
+}
+
+/* footer */
+.site-footer{
+    background-color: rgba(8, 63, 3, 0.822);
+ 
+}
+
+.contenido-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+    align-items: center;
+}
+
+.copyright{
+    color: #ffffff;
+}
+
+.logo{
+
+    max-width: 80rem;
+    margin: 0 auto 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 2rem;
+    width: 200px;
+    height: 180px;
+    padding: 4rem;
+}
+
+.ofertas{
+    padding-left: 12rem;
+    padding-right: 10rem;
+    width: 15rem;
+    height: 15rem;
+}
+
+.footer{
+    background: #BCD85F;
+    padding-right: 6rem;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.footer-list a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 2rem;
+}
+
+.addon-title{
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 32px;
+    margin-bottom: 26px;
+    padding-right: 5rem;
+}
+
+.custom-title {
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 8rem;
+}
+.custom-title1{
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+}
+.addon-box{
+    padding: 0;
+    margin: 0;
+   
+    box-sizing: border-box;
+}
+
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+}
+
+.footer-navbar .layout-column {
+    margin-bottom: 25px;
+}
+.col-xs-6 {
+    width: 50%;
+   
+}
+
+.margen{
+    padding: 0.5rem;
+}
+
+.anuncio1{
+    /* grown-shrink-basis */
+    flex: 0 0 calc(33.3% - 1rem);
+    border-style: none;
+
+}
+
+.feature-box{
+    padding-right: 10rem;
+    padding-left: 10rem;
+}
+
+.img-somos{
+    align-items: center ;
+    max-width: 80rem;
+    margin: 0 auto 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 2rem;
+}
+.Quienes{
+    background-color: rgb(244, 248, 247);
+    padding: 2rem;
+    margin-top: 6rem;
+}
+.feature-content{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*Alimentacio
+
+.titulo1{
+    padding: 5rem;
+    text-align: center;
+}*/
+
+.anuncio2{
+    flex: 0 0 calc(33.3% - 1rem);
+    border-style: solid;
+    border-color: #c2c4bf;
+    border-width: .1rem;
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.contacto1{
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 1rem;
+    border-style: solid;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    border-color: #c2c4bf;
+    border-width: 0.1rem;
+}
+legend{
+    font-size: 2rem;
+    color: #6d6161;
+}
+
+input:not([type="submit"]),
+textarea,
+select{
+    padding: 1rem;
+    display: block;
+    width: 97%;
+    background-color: #e1e1e1;
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 1rem;
+}
+.fondo-bebi{
+    background: url(../img/agua.jpg);
+    background-position: left ;
+    background-size: cover;
+    height: 20rem;
+    display: flex;
+    align-items: center ;
+    padding-top: 4rem;
+}
+
+.queremos{
+display: block;
+margin-right: auto;
+margin-left: auto;
+}
+
+.boton-suscripcion{
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 1rem 3rem;
+    margin-top: 2rem;
+    display: inline-block;
+    text-align: center;
+    border-radius: 1.3rem;
+    cursor: pointer;
+    /*display:
+    inline
+    block*/
+}
+
+.boton-color{
+    background-color: #BCD85F;
+}
